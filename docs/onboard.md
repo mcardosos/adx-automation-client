@@ -67,7 +67,7 @@ environments:
     value: <your-secret-data-key-in-kubernetes>
 ```
 
-Maybe your credentials are not environment variables but secret files. To inject the credential as a file, add this:
+To inject credentials as files, add this:
 
 ``` yaml
 secretFiles:
